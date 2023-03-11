@@ -22,15 +22,26 @@ body{
     width: 100%;
     height: 20%;
     background: #464c8b;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
+    
 }
 
 .name{
     color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
+    font-weight: 100;
+    margin: 50px 0 0 0;
+}
+
+.nameDos{
+    margin: -40px 0 0 0;
+    text-align: center;
+    color: rgb(43, 41, 41);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     font-weight: 100;
 }
 
@@ -101,12 +112,12 @@ audio{
     cursor: pointer;
     border-radius: 50px;
     margin: 0 -5px 0 0;
-    position: fixed;
+ 
 }
 
 .pause{
-    width: 10px;
-    height: 10px;
+    width: 0;
+    height: 0;
     background-image: url(/img/icons8-pausa-en-círculo-100.png);
     background-repeat: no-repeat;
     background-position: center;

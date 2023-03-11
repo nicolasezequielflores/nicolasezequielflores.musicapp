@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="nameCont">
+        <p class="name">Rock Nacional</p>
+    </div>
+
+    <div class="imgCont">
+        <div class="img">
+            
+        </div>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+    </div>
+    
+    <div class="cCont">
+
+        <audio id="audio" src="./canciones/Rock Nacional Argentino 2 - Nico Vallorani DJ.mp3" controls></audio>
+
+        <div class="controlsCont">
+            <div class="anterior">
+                <a href="/index.html" class="sig"></a>
+            </div>
+    
+            <div class="pp">
+                <div id="btnPlay" onclick="play()" class="play"></div>
+                <div id="btnPause" onclick="pause()" class="pause"></div>
+            </div>
+    
+            <div class="siguiente">
+                <a href="/index.html" class="sig"></a>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: #464c8b;
+    padding: 0 30px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.nameCont{
+    width: 100%;
+    height: 20%;
+    background: #464c8b;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.name{
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.imgCont{
+    width: 100%;
+    height: 60%;
+    background: #464c8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #3f447d, #4b5195);
+    box-shadow: 20px 20px 60px #3c4176,
+                -20px -20px 60px #5157a0;
+}
+
+.cCont{
+    width: 100%;
+    height: 100px;
+}
+.controlsCont{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(145deg, #3f447d, #4b5195);
+    box-shadow: 20px 20px 60px #3c4176,
+                -20px -20px 60px #5157a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+audio{
+    display: none;
+}
+
+.progress-bar {
+    background-color: #00000073;
+    height: 10px;
+    width: 100%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #000000;
+    height: 100%;
+    width: 0%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+
+.play{
+    width: 40px;
+    height: 40px;
+    background-image: url(/img/icons8-play-90\(-xxhdpi\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 0 -5px 0 0;
+    position: fixed;
+    z-index: 10;
+}
+
+.pause{
+    width: 10px;
+    height: 10px;
+    background-image: url(/img/icons8-pausa-en-círculo-100.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.tamReal{
+    width: 40px;
+    height: 40px;
+}
+
+.hidden{
+    display: none;
+}
+
+.anterior{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.pp{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.siguiente{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.ant{
+    width: 40px;
+    height: 40px;
+    background-image: url(/img/anterior.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.sig{
+    width: 40px;
+    height: 40px;
+    background-image: url(/img/siguiente.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    
+}
+
+.progress-bar {
+    position: relative;
+    height: 8px;
+    width: 100%;
+    background-color: #0000008a;
+  }
+  
+  .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #000000;
+  }
+  
+  .time {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+  }
